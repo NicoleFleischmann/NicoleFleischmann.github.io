@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+html {
+    background-image: url(../pictures/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+}
+
+	/* CSS des Logos */
+
+h1 {                                
+    color: white;
+    font-variant: small-caps;
+    font-family: 'Rock Salt';
+    font-size: 30px;
+    border: 5px dotted;
+    border-color:  whitesmoke;
+    background-color: rgba(200,155,255,0.3);
+    display: inline-block; 
+    padding-right: 20px;
+    padding-left: 20px; 
+}
+
+h2,h3 {
+    font-family: sans-serif;
+}
+
+    /* CSS der Navigationsleiste*/
+
+nav {
+    background-color: beige;
+    text-align: center;
+}
+
+nav ul a:hover { 
+    box-shadow:  10px 8px rgba(200,155,255,0.3) !important;
+    box-shadow:  20px 20px black;
+    background-color: white;
+}
+
+ul a {
+    text-decoration: none;  
+    padding: 0.2em;
+    display:inline-block;
+    font-size: 20px;  
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+nav li {
+    display: inline;                
+    padding: 50px;
+}
+                                        /* CSS des Hauptteiles*/
+main{
+	background-color: rgba(200,155,255,0.5);
+    padding-bottom: 3em;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+#bild1 {
+    width: 400px; 
+	max-height: 265px;
+}
+
+#beschreibung1 {
+    margin-left: 3em;
+    margin-top: 2em;
+    font-family: sans-serif;
+    
+}
+                                        /*CSS des Fußbereiches*/
+a:last-of-type{
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 2px;
+    color: purple;
+}
+
+.hobbybeschreibung  {
+    text-align: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 1;
+}
+
+@media (min-width: 516px){
+	main{
+	display:flex;
+	}
+}

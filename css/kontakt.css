@@ -1,0 +1,19 @@
+ @import url(style.css);
+@media(min-width:375px){
+
+fieldset input{
+display: table-cell;
+margin-left: 10px;
+margin-bottom: 20px;
+}
+    
+    
+form { 
+    
+    text-align: center;
+}
+
+button {
+    margin-top: 5px;
+}
+}
