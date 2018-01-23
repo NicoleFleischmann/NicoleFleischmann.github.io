@@ -1,13 +1,16 @@
  @import url(style.css);
 @media(min-width:375px){
 
-fieldset input{
-display: table-cell;
-margin-left: 10px;
-margin-bottom: 20px;
+main{
+    display: block;
 }
     
-    
+fieldset input{
+    display: table-cell;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+     
 form { 
     
     text-align: center;
@@ -16,4 +19,8 @@ form {
 button {
     margin-top: 5px;
 }
+    
+    fieldset {
+        margin-top: 20px;
+    }
 }
